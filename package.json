@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --headed"
+    "test": "npx playwright test --headed",
+    "test:setup": "npx playwright test --headed test-login.spec.js --project=chromium:saved-credentials"
   },
   "keywords": [],
   "author": "",
